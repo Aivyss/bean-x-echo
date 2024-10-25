@@ -4,7 +4,7 @@ import (
 	"bean-x-echo/repository"
 	"context"
 	"fmt"
-	"github.com/aivyss/bean"
+	"github.com/aivyss/go-bean"
 	"github.com/google/uuid"
 )
 

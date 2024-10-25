@@ -2,7 +2,7 @@ package repository
 
 import (
 	"fmt"
-	"github.com/aivyss/bean"
+	"github.com/aivyss/go-bean"
 	"github.com/google/uuid"
 	"sync"
 )

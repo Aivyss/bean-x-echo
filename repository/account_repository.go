@@ -4,7 +4,7 @@ import (
 	"bean-x-echo/dto"
 	"errors"
 	"fmt"
-	"github.com/aivyss/bean"
+	"github.com/aivyss/go-bean"
 	"sync"
 )
 

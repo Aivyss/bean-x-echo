@@ -2,7 +2,7 @@ package echo
 
 import (
 	"fmt"
-	"github.com/aivyss/bean"
+	"github.com/aivyss/go-bean"
 	"github.com/labstack/echo/v4"
 )
 

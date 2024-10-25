@@ -4,7 +4,7 @@ import (
 	"bean-x-echo/dto/request"
 	"bean-x-echo/usecase"
 	"fmt"
-	"github.com/aivyss/bean"
+	"github.com/aivyss/go-bean"
 	"github.com/labstack/echo/v4"
 )
 
