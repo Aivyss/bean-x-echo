@@ -14,9 +14,12 @@ func init() {
 
 type LogRequestMiddleware struct{}
 
-func NewLogRequestMiddleware() *LogRequestMiddleware {
+func NewLogRequestMiddleware(e *echo.Echo) *LogRequestMiddleware {
 	fmt.Println("autowired: *LogRequestMiddleware")
-	return &LogRequestMiddleware{}
+	object := &LogRequestMiddleware{}
+	e.Use(object.Process)
+
+	return object
 }
 
 func (m *LogRequestMiddleware) Process(a echo.HandlerFunc) echo.HandlerFunc {
